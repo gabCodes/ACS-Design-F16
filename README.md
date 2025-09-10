@@ -40,7 +40,7 @@ The glideslope error throughout the whole manoeuvre is seen below. In the beginn
 The vertical speed timeseries is shown below. A clear change occurs when swapping from the glideslope to the flare controller as the rate of descent decreases from roughly -16 to -3.6 ft/s at the end, slightly above target. However, it can be better to come down a bit harder, especially for short runways (such as an aircraft carrier) on which F-16s tend to land. 
 
 <div align="center">
-	<img src="figures/VYTS.png" alt="Glideslope error timeseries" width="550">
+	<img src="figures/VYTs.png" alt="Vertical speed timeseries" width="550">
 </div>
 
 ## Methodology
