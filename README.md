@@ -1,6 +1,6 @@
 # Automatic Control System Design on F-16 Model
 
-This project contains the control system design of an automated landing manoeuvre for an F-16 Simulink model. For the scope of this project, the focus is on the symmetric longitudinal control problem (so the localizer is considered).
+This project contains the control system design of an automated landing manoeuvre for an F-16 Simulink model. For the scope of this project, the focus is on the symmetric longitudinal control problem. Lateral aligning using a localizer is therefore not considered.
 
 ## Problem Statement
 
