@@ -86,6 +86,7 @@ The glideslope error block contains the logic used to determine the deviation fr
 Here, the $\Gamma$ is the glideslope error. From the geometry of the problem (using small angle approximation).
 
 $$\Gamma = \tan^{-1}(\frac{d}{R}) \approx \frac{d}{R} $$
+
 The deviation $d$ is found via the flight path angle and the position $\frac{V_0}{s}$. The $\frac{1}{s}$ comes from an integrator block, which dynamically calculates the position of the aircraft as the simulation runs.
 
 $$d = \frac{V_0}{s} \frac{\pi}{180} (\gamma + 3)$$
