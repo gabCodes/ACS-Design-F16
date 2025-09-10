@@ -111,12 +111,12 @@ $$h = h_{flare} e^{-\frac{t}{\tau}} - h_o$$
 Where $h_o$ is some offset to ensure the aircraft actually touches down, as exponential decay never actually reaches zero. The values for $T$ (time taken to touchdown), $x_2$, $h_o$ and $\tau$ can be calculated by enforcing boundary conditions on the height function and its derivative. 
 
 $$h(0) = x_2 \tan(\frac{3\pi}{180})$$
-$$h(T) = 0 \text{ft}$$
+$$h(T) = 0 \ \text{ft}$$
 $$\dot h(0) = -V\sin(\frac{3\pi}{180}) $$
-$$\dot h(T) = -3 \text{ft/s} $$
+$$\dot h(T) = -3 \ \text{ft/s} $$
 
 The vertical speed error is fed to the flare controller to generate a reference pitch the aircraft should follow during the flare manoeuvre phase of landing. The inner workings of the block is shown below.
 
 <div align="center">
-	<img src="figures/Flare_Block.png" alt="Flare block diagram" width="700">
+	<img src="figures/Flare_block.png" alt="Flare block diagram" width="700">
 </div>
